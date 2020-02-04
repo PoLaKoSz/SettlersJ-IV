@@ -1,0 +1,3 @@
+[submodule "lib/termlib"]
+	path = lib/termlib
+	url = git@github.com:CodecoolGlobal/freestyle-project-java-joinme.git

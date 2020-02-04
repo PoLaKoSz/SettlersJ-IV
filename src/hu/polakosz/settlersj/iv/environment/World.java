@@ -3,6 +3,7 @@ package hu.polakosz.settlersj.iv.environment;
 import com.codecool.termlib.Terminal;
 import hu.polakosz.settlersj.iv.environment.generators.EmptyTerrainGenerator;
 import hu.polakosz.settlersj.iv.environment.generators.LandGenerator;
+import hu.polakosz.settlersj.iv.environment.generators.OceanGenerator;
 
 import java.awt.Point;
 
@@ -19,6 +20,7 @@ public class World {
     public void generate() {
         initializeWithEmptyTerrain();
         generateLand();
+        generateOcean();
     }
 
     public void draw() {
@@ -40,6 +42,11 @@ public class World {
 
     private void generateLand() {
         LandGenerator generator = new LandGenerator(this.map, this.maxLandPercentage);
+        generator.generate();
+    }
+
+    private void generateOcean() {
+        OceanGenerator generator = new OceanGenerator(this.map);
         generator.generate();
     }
 }

@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="termlib">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/termlib/out/artifacts/termlib_jar/termlib.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>

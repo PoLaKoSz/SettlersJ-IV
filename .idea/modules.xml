@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SettlersJ IV.iml" filepath="$PROJECT_DIR$/SettlersJ IV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/termlib/termlib.iml" filepath="$PROJECT_DIR$/lib/termlib/termlib.iml" />
     </modules>
   </component>
 </project>

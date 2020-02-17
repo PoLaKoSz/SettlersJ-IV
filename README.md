@@ -15,7 +15,4 @@ This is a Settlers IV. clone written in Java.
 $ git submodule update --init
 ```
 
-- Open the `SettlersJ-IV/lib/termlib` folder in IntelliJ
-  - Build > Build Artifacts > Build
-- Open the `SettlersJ-IV` folder in IntelliJ
-  - Run the project
+- Run the `SettlersJ-IV` project in IntelliJ
